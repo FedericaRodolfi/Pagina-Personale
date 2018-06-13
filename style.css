@@ -436,28 +436,28 @@ div.content {
 
 	#foto.first {
 		opacity: 1;
-		background-image: url(Uno.jpg);
+		background-image: url(Uno.JPG);
 		background-size: cover;
 		transition: 0.5s;
 	}	
 
 	#foto.second {
 		opacity: 1;
-		background-image: url(Due.jpg);
+		background-image: url(Due.JPG);
 		background-size: cover;
 		transition: 0.5s;
 	}
 
 	#foto.third {
 		opacity: 1;
-		background-image: url(Tre.jpg);
+		background-image: url(Tre.JPG);
 		background-size: cover;
 		transition: 0.5s;
 	}
 
 	#foto.fourth {
 		opacity: 1;
-		background-image: url(Quattro.jpg);
+		background-image: url(Quattro.JPG);
 		background-size: cover;
 		transition: 0.5s;
 	}
@@ -509,7 +509,7 @@ div.content {
 	margin-left: 50%;
 	width: 500px;
 	height: 500px;
-	background-image: url(Copertina.jpg);
+	background-image: url(Copertina.JPG);
 	background-size: cover;
 	transform: translate(-50%,0%);
 }
@@ -563,7 +563,7 @@ div.content2 {
 #sposini {
 	width: 250px;
 	height: 250px;
-	background-image: url(Sposini.jpg);
+	background-image: url(Sposini.JPG);
 	background-size: cover;
 }
 

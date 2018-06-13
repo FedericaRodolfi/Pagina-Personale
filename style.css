@@ -479,7 +479,7 @@ div.content {
 
 	#prossima {
 		background-color: #101010;
-		margin-left: 1235px;
+		margin-left: 1285px;
 		margin-top: -600px;
 		transition: all 0.3s;
 	}
@@ -493,7 +493,7 @@ div.content {
 
 	#precedente {
 		margin-top: 20px;
-		margin-left: 265px;
+		margin-left: 215px;
 	}
 
 	#slidebox.hide {

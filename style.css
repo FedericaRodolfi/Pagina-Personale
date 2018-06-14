@@ -372,6 +372,63 @@ div.contatti:hover > p {
 		opacity: 1;
 	}
 
+/*3spinner*/
+
+	#bigboxspinner3 {
+		margin-top: 150px;
+		margin-left: 55%;
+	}
+
+	@keyframes thirdspin {
+		0% {transform: rotate(0) scale(1)}
+		25% {transform: rotate(90deg) scale(0.5)}
+		50% {transform: rotate(180deg) scale(1)}
+		75% {transform: rotate(270deg) scale(0.5)}
+		100% {transform: rotate(360deg) scale(1)}
+		}
+	@keyframes thirdmove {
+		0% {transform: translate(0,0)}
+		25% {transform: translate(0,-100px)}
+		50% {transform: translate(-100px,-100px)}
+		75% {transform: translate(-100px,0)}
+		100% {transform: translate(0,0)}
+		}
+	
+	@keyframes thirdmove2 {
+		0% {transform: translate(-100px,-100px)}
+		25% {transform: translate(-100px,0)}
+		50% {transform: translate(0,0)}
+		75% {transform: translate(0,-100px)}
+		100% {transform: translate(-100px,-100px)}
+		}
+	
+	#container3 {
+		animation: thirdmove 4s infinite;
+		position: absolute;
+		}
+	
+	#spinner3 {
+		animation: thirdspin 4s infinite;
+		background-color: #088A85;
+		height: 30px;
+		width: 30px;
+		opacity: 0.5;
+		}
+
+	
+	#container23 {
+		animation: thirdmove2 4s infinite;
+		position: absolute;
+		}
+	
+	#spinner23 {
+		animation: thirdspin 4s infinite;
+		background-color: #088A85;
+		height: 30px;
+		width: 30px;
+		opacity: 0.5;
+		}
+
 #tabs { 
 	font-family: Verdana;
 	font-size: 14px;
@@ -436,28 +493,28 @@ div.content {
 
 	#foto.first {
 		opacity: 1;
-		background-image: url(Uno.JPG);
+		background-image: url(Uno.jpg);
 		background-size: cover;
 		transition: 0.5s;
 	}	
 
 	#foto.second {
 		opacity: 1;
-		background-image: url(Due.JPG);
+		background-image: url(Due.jpg);
 		background-size: cover;
 		transition: 0.5s;
 	}
 
 	#foto.third {
 		opacity: 1;
-		background-image: url(Tre.JPG);
+		background-image: url(Tre.jpg);
 		background-size: cover;
 		transition: 0.5s;
 	}
 
 	#foto.fourth {
 		opacity: 1;
-		background-image: url(Quattro.JPG);
+		background-image: url(Quattro.jpg);
 		background-size: cover;
 		transition: 0.5s;
 	}
@@ -479,21 +536,21 @@ div.content {
 
 	#prossima {
 		background-color: #101010;
-		margin-left: 1265px;
+		margin-left: 1235px;
 		margin-top: -600px;
 		transition: all 0.3s;
 	}
 
 	#prossima:hover {
 		background-color: #101010;
-		margin-left: 1265px;
+		margin-left: 1215px;
 		margin-top: -600px;
 		transition: all 0.3s;
 	}
 
 	#precedente {
 		margin-top: 20px;
-		margin-left: 235px;
+		margin-left: 265px;
 	}
 
 	#slidebox.hide {
@@ -509,7 +566,7 @@ div.content {
 	margin-left: 50%;
 	width: 500px;
 	height: 500px;
-	background-image: url(Copertina.JPG);
+	background-image: url(Copertina.jpg);
 	background-size: cover;
 	transform: translate(-50%,0%);
 }
@@ -560,17 +617,27 @@ div.content2 {
 	margin-top: -400px;
 }
 
+#colonna5 {
+	margin-left: 140px;
+	margin-top: -80px;
+}
+
+#colonna6 {
+	margin-left: 960px;
+	margin-top: -260px;
+}
+
 #sposini {
 	width: 250px;
 	height: 250px;
-	background-image: url(Sposini.JPG);
+	background-image: url(Sposini.jpg);
 	background-size: cover;
 }
 
-#sposi {
+#gatti {
 	width: 250px;
 	height: 250px;
-	background-image: url(SpilleSposi.jpeg);
+	background-image: url(Gatti.jpg);
 	background-size: cover;
 }
 
@@ -582,15 +649,48 @@ div.content2 {
 }
 
 #musicisti {
-	width: 250px;
+	width: 750px;
 	height: 250px;
 	background-image: url(Musicisti.jpg);
 	background-size: cover;
 }
 
+#tecnici {
+	width: 250px;
+	height: 250px;
+	background-image: url(Tecnici.jpg);
+	background-size: cover;
+}
+
+#sposi {
+	width: 390px;
+	height: 250px;
+	background-image: url(SpilleSposi.jpeg);
+	background-size: cover;
+}
+
 .did {
-	font-size: 13px;
-	height: 50px;
+	margin-top:-35px;
+	color: white;
+	font-size: 10px;
+	margin-left: 0px;
+	height: 25px;
+	padding-left: 15px;
+	width: 235px;
+	background-color: rgba(0,0,0,0.6);
+	opacity: 0;
+}
+
+div.pphoto:hover + .did {
+	opacity: 1;
+}
+
+#mus {
+	width: 735px;
+}
+
+#spos {
+	width: 375px;
 }
 
 #drawbox {
@@ -667,11 +767,6 @@ div.content2 {
 	height: 400px;
 	background-image: url(Rosone.jpg);
 	background-size: cover;
-}
-
-.did {
-	font-size: 13px;
-	height: 50px;
 }
 
 .did1 {
